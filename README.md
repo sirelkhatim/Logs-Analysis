@@ -12,6 +12,7 @@ In this project we will use python and SQL to summarize information about the ne
 1. python 3.6
 2. pyscopg2 2.7.5
 3. PostgresSQL 9.5.10
+4. newdata.zip: zip file that contains the news SQL table
 
 In addition to this you will need vagrant (https://www.vagrantup.com/) and virtualbox (https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) to set up a virtual environment to run linux on and the SQL server. I also used Git bash for my terminal since I am using Windows. If you are using linux, you should be fine
 
