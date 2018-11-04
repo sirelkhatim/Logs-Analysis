@@ -25,7 +25,7 @@ In addition to this you will need vagrant (https://www.vagrantup.com/) and virtu
 1. Install vagrant and virtualbox from the links provided above
 2. Download newsdata.zip and unzip it in the vagrant folder in your Virtual environment folder
 3. Download the vagrantfile and news.py and put it in the vagrant folder in your virtual environment folder
-4. You need to open a terminal bash and move into the virtual box that you have installed. You then have to move your terminal into the folder vagrant. 
+4. You need to open a terminal bash and move into the virtual box that you have installed. You then have to move your terminal into the folder vagrant. For example "cd ~/home/FSND_virtual/vagrant/"
 5. Then type "vagrant up" to initialize the repository 
 6. Then type "vagrant ssh" and 
 8. To load the database type: psql -d news -f newsdata.sql
